@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import homepage from './landing_page/home_section/homepage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-<div>
-  <h1>Welcome to React</h1>
-</div>
+
+   <homepage />
+
   </React.StrictMode>
   
 );
