@@ -1,8 +1,8 @@
 import React from 'react';
 
-function education() {
+function Education() {
     return (
         <h1> education </h1>
     )
 }
-export default education;
+export default Education;

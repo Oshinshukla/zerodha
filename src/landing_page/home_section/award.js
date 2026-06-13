@@ -1,9 +1,9 @@
 import React from 'react';
 
-function award() {
+function Award() {
     return ( 
         <h1>award</h1>
      );
 }
 
-export default award; 
+export default Award; 

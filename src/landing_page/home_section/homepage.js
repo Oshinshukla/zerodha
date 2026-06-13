@@ -1,25 +1,24 @@
-import hero from './hero';
-import award from './award';
-import openAcc from './open_acc';
-import pricing from './pricing';
-import education from './education';
-import stats from './stats';
-import navbar from '../../navbar';
-import footer from '../../footer';
-function homepage() {
+import Hero from './hero';
+import Award from './award';
+import OpenAcc from './open_acc';
+import Pricing from './pricing';
+import Education from './education';
+import Stats from './stats';
+import Navbar from '../navbar';
+import Footer from '../footer';
+
+function Homepage() {
     return (
         <> 
-        <navbar />
-        <footer />
-        <hero/>
-        <award/>
-        <openAcc />
-        <pricing />
-        <education />
-        <stats />
-
-
+        <Navbar />
+        <Hero/>
+        <Award/>
+        <OpenAcc />
+        <Pricing />
+        <Education />
+        <Stats />
+        <Footer />
         </>
     );
 }
-export default homepage;
+export default Homepage;

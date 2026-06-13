@@ -1,7 +1,7 @@
 import React from 'react';
-function openAcc() {
+function OpenAcc() {
     return (
         <h1>open Account</h1>
     );
 }
-export default openAcc;
+export default OpenAcc;

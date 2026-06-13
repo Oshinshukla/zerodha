@@ -1,8 +1,8 @@
 import React from 'react';
-function pricing () {
+function Pricing () {
     return (
         <h1> pricing </h1>
       );
 }
 
-export default pricing;
+export default Pricing;
